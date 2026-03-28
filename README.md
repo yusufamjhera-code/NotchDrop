@@ -13,7 +13,7 @@ A personal-use macOS notch overlay app for MacBook Air M4, inspired by [NotchNoo
 ## Features
 
 ### Core Capabilities
-- 🎵 **Media Player** - Now playing track information and playback controls (Apple Music/Spotify)
+- 🎵 **Media Player** - Now playing track information and playback controls (Apple Music/Spotify). Features stealth gesture tracking—swipe left or right beneath the notch to quickly skip tracks without expanding.
 - 📅 **Calendar Events** - Scrollable dates and today's upcoming events using EventKit
 - 📷 **Mirror** - A quick, circular live camera preview directly from the notch
 - 📋 **Clipboard Manager** - History of recently copied items with a dedicated tab
@@ -146,12 +146,14 @@ The app requires these entitlements (configured in `NotchDrop.entitlements`):
 | `com.apple.security.automation.apple-events` | Control Dark Mode, DND |
 | `com.apple.security.personal-information.calendars` | Read calendar events |
 
-## Keyboard Shortcuts
+## Shortcuts & Gestures
 
-| Shortcut | Action |
+| Input | Action |
 |----------|--------|
-| ⌘⌥N | Toggle notch panel |
-| ⌘, | Open settings |
+| `⌘⌥N` | Toggle notch panel |
+| `⌘,` | Open settings |
+| Swipe Down (Trackpad) | Expand the notch panel |
+| Swipe Left/Right (Trackpad) | Next/Previous media track (when collapsed) |
 
 ## Debugging Tips
 
