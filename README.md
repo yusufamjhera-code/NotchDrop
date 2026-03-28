@@ -189,4 +189,4 @@ This project is for **personal use only**. Not intended for redistribution or Ap
 
 ## Credits
 
-Inspired by [NotchDrop](https://lo.cafe/notchnook) by Lo.Cafe.
+Inspired by [NotchNook](https://lo.cafe/notchnook) by Lo.Cafe.
