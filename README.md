@@ -4,7 +4,7 @@
   <img src="assets/logo.png" width="250" alt="NotchDrop Logo">
 </p>
 
-A personal-use macOS notch overlay app for MacBook Air M4, inspired by [NotchDrop](https://lo.cafe/notchnook). Built with Swift + SwiftUI + AppKit.
+A personal-use macOS notch overlay app for MacBook Air M4, inspired by [NotchNook](https://lo.cafe/notchnook). Built with Swift + SwiftUI + AppKit.
 
 ![macOS](https://img.shields.io/badge/macOS-14.0+-blue)
 ![Swift](https://img.shields.io/badge/Swift-5.9-orange)
