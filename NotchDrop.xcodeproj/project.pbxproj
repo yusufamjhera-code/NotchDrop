@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001F1A012B5A1B0000000001 /* NotchDropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000001 /* NotchDropApp.swift */; };
+		001F1A022B5A1B0000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000002 /* AppDelegate.swift */; };
+		001F1A032B5A1B0000000003 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000003 /* Constants.swift */; };
+		001F1A042B5A1B0000000004 /* NotchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000004 /* NotchPanel.swift */; };
+		001F1A052B5A1B0000000005 /* NotchWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000005 /* NotchWindowController.swift */; };
+		001F1A062B5A1B0000000006 /* NotchWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000006 /* NotchWindowManager.swift */; };
+		001F1A072B5A1B0000000007 /* NotchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000007 /* NotchContentView.swift */; };
+		001F1A082B5A1B0000000008 /* ExpandedNotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000008 /* ExpandedNotchView.swift */; };
+		001F1A092B5A1B0000000009 /* BatteryWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000009 /* BatteryWidget.swift */; };
+		001F1A0A2B5A1B000000000A /* MusicPlayerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000000A /* MusicPlayerWidget.swift */; };
+		001F1A0B2B5A1B000000000B /* CalendarWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000000B /* CalendarWidget.swift */; };
+		001F1A0C2B5A1B000000000C /* SystemMonitorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000000C /* SystemMonitorWidget.swift */; };
+		001F1A0D2B5A1B000000000D /* DateTimeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000000D /* DateTimeWidget.swift */; };
+		001F1A0E2B5A1B000000000E /* NetworkWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000000E /* NetworkWidget.swift */; };
+		001F1A0F2B5A1B000000000F /* ControlsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000000F /* ControlsGridView.swift */; };
+		001F1A102B5A1B0000000010 /* WiFiToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000010 /* WiFiToggle.swift */; };
+		001F1A112B5A1B0000000011 /* BluetoothToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000011 /* BluetoothToggle.swift */; };
+		001F1A122B5A1B0000000012 /* DNDToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000012 /* DNDToggle.swift */; };
+		001F1A132B5A1B0000000013 /* AirDropToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000013 /* AirDropToggle.swift */; };
+		001F1A142B5A1B0000000014 /* DarkModeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000014 /* DarkModeToggle.swift */; };
+		001F1A152B5A1B0000000015 /* BatteryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000015 /* BatteryMonitor.swift */; };
+		001F1A162B5A1B0000000016 /* SystemMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000016 /* SystemMonitor.swift */; };
+		001F1A172B5A1B0000000017 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000017 /* NetworkManager.swift */; };
+		001F1A182B5A1B0000000018 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000018 /* MediaController.swift */; };
+		001F1A192B5A1B0000000019 /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000019 /* CalendarService.swift */; };
+		001F1A252B5A1B0000000025 /* ClipboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000027 /* ClipboardService.swift */; };
+		001F1A1A2B5A1B000000001A /* MenuBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000001A /* MenuBarManager.swift */; };
+		001F1A1B2B5A1B000000001B /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000001B /* SettingsManager.swift */; };
+		001F1A1C2B5A1B000000001C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000001C /* SettingsView.swift */; };
+		001F1A1D2B5A1B000000001D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000001D /* BlurView.swift */; };
+		001F1A1E2B5A1B000000001E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000001E /* Extensions.swift */; };
+		001F1A1F2B5A1B000000001F /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B000000001F /* Animations.swift */; };
+		001F1A202B5A1B0000000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000020 /* Assets.xcassets */; };
+		001F1A212B5A1B0000000021 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000021 /* CoreWLAN.framework */; };
+		001F1A222B5A1B0000000022 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000022 /* IOBluetooth.framework */; };
+		001F1A232B5A1B0000000023 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000023 /* EventKit.framework */; };
+		001F1A242B5A1B0000000024 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001F1A002B5A1B0000000024 /* ServiceManagement.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001F1A002B5A1B0000000000 /* NotchDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotchDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001F1A002B5A1B0000000001 /* NotchDropApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchDropApp.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000003 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000004 /* NotchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanel.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000005 /* NotchWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowController.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000006 /* NotchWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowManager.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000007 /* NotchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchContentView.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000008 /* ExpandedNotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedNotchView.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000009 /* BatteryWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryWidget.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000000A /* MusicPlayerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerWidget.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000000B /* CalendarWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWidget.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000000C /* SystemMonitorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorWidget.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000000D /* DateTimeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeWidget.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000000E /* NetworkWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWidget.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000000F /* ControlsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsGridView.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000010 /* WiFiToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiToggle.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000011 /* BluetoothToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothToggle.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000012 /* DNDToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNDToggle.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000013 /* AirDropToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirDropToggle.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000014 /* DarkModeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeToggle.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000015 /* BatteryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryMonitor.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000016 /* SystemMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitor.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000017 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000018 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000019 /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000027 /* ClipboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardService.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000001A /* MenuBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarManager.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000001B /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000001C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000001D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000001E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B000000001F /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000021 /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		001F1A002B5A1B0000000022 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		001F1A002B5A1B0000000023 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		001F1A002B5A1B0000000024 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		001F1A002B5A1B0000000025 /* NotchDrop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotchDrop.entitlements; sourceTree = "<group>"; };
+		001F1A002B5A1B0000000026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001F1A302B5A1B0000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001F1A212B5A1B0000000021 /* CoreWLAN.framework in Frameworks */,
+				001F1A222B5A1B0000000022 /* IOBluetooth.framework in Frameworks */,
+				001F1A232B5A1B0000000023 /* EventKit.framework in Frameworks */,
+				001F1A242B5A1B0000000024 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001F1A402B5A1B0000000000 = {
+			isa = PBXGroup;
+			children = (
+				001F1A502B5A1B0000000000 /* NotchDrop */,
+				001F1A602B5A1B0000000000 /* Frameworks */,
+				001F1A702B5A1B0000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001F1A502B5A1B0000000000 /* NotchDrop */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A512B5A1B0000000000 /* App */,
+				001F1A522B5A1B0000000000 /* Window */,
+				001F1A532B5A1B0000000000 /* Views */,
+				001F1A542B5A1B0000000000 /* Widgets */,
+				001F1A552B5A1B0000000000 /* Controls */,
+				001F1A562B5A1B0000000000 /* Services */,
+				001F1A572B5A1B0000000000 /* MenuBar */,
+				001F1A582B5A1B0000000000 /* Settings */,
+				001F1A592B5A1B0000000000 /* Utilities */,
+				001F1A5A2B5A1B0000000000 /* Resources */,
+			);
+			path = NotchDrop;
+			sourceTree = "<group>";
+		};
+		001F1A512B5A1B0000000000 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000001 /* NotchDropApp.swift */,
+				001F1A002B5A1B0000000002 /* AppDelegate.swift */,
+				001F1A002B5A1B0000000003 /* Constants.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		001F1A522B5A1B0000000000 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000004 /* NotchPanel.swift */,
+				001F1A002B5A1B0000000005 /* NotchWindowController.swift */,
+				001F1A002B5A1B0000000006 /* NotchWindowManager.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		001F1A532B5A1B0000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000007 /* NotchContentView.swift */,
+				001F1A002B5A1B0000000008 /* ExpandedNotchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		001F1A542B5A1B0000000000 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000009 /* BatteryWidget.swift */,
+				001F1A002B5A1B000000000A /* MusicPlayerWidget.swift */,
+				001F1A002B5A1B000000000B /* CalendarWidget.swift */,
+				001F1A002B5A1B000000000C /* SystemMonitorWidget.swift */,
+				001F1A002B5A1B000000000D /* DateTimeWidget.swift */,
+				001F1A002B5A1B000000000E /* NetworkWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		001F1A552B5A1B0000000000 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B000000000F /* ControlsGridView.swift */,
+				001F1A002B5A1B0000000010 /* WiFiToggle.swift */,
+				001F1A002B5A1B0000000011 /* BluetoothToggle.swift */,
+				001F1A002B5A1B0000000012 /* DNDToggle.swift */,
+				001F1A002B5A1B0000000013 /* AirDropToggle.swift */,
+				001F1A002B5A1B0000000014 /* DarkModeToggle.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		001F1A562B5A1B0000000000 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000015 /* BatteryMonitor.swift */,
+				001F1A002B5A1B0000000016 /* SystemMonitor.swift */,
+				001F1A002B5A1B0000000017 /* NetworkManager.swift */,
+				001F1A002B5A1B0000000018 /* MediaController.swift */,
+				001F1A002B5A1B0000000019 /* CalendarService.swift */,
+				001F1A002B5A1B0000000027 /* ClipboardService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		001F1A572B5A1B0000000000 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B000000001A /* MenuBarManager.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		001F1A582B5A1B0000000000 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B000000001B /* SettingsManager.swift */,
+				001F1A002B5A1B000000001C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		001F1A592B5A1B0000000000 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B000000001D /* BlurView.swift */,
+				001F1A002B5A1B000000001E /* Extensions.swift */,
+				001F1A002B5A1B000000001F /* Animations.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		001F1A5A2B5A1B0000000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000020 /* Assets.xcassets */,
+				001F1A002B5A1B0000000025 /* NotchDrop.entitlements */,
+				001F1A002B5A1B0000000026 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		001F1A602B5A1B0000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000021 /* CoreWLAN.framework */,
+				001F1A002B5A1B0000000022 /* IOBluetooth.framework */,
+				001F1A002B5A1B0000000023 /* EventKit.framework */,
+				001F1A002B5A1B0000000024 /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		001F1A702B5A1B0000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001F1A002B5A1B0000000000 /* NotchDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001F1A802B5A1B0000000000 /* NotchDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001F1AA02B5A1B0000000000 /* Build configuration list for PBXNativeTarget "NotchDrop" */;
+			buildPhases = (
+				001F1A812B5A1B0000000000 /* Sources */,
+				001F1A302B5A1B0000000000 /* Frameworks */,
+				001F1A832B5A1B0000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotchDrop;
+			productName = NotchDrop;
+			productReference = 001F1A002B5A1B0000000000 /* NotchDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001F1A902B5A1B0000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					001F1A802B5A1B0000000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 001F1A912B5A1B0000000000 /* Build configuration list for PBXProject "NotchDrop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001F1A402B5A1B0000000000;
+			productRefGroup = 001F1A702B5A1B0000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001F1A802B5A1B0000000000 /* NotchDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001F1A832B5A1B0000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001F1A202B5A1B0000000020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001F1A812B5A1B0000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001F1A012B5A1B0000000001 /* NotchDropApp.swift in Sources */,
+				001F1A022B5A1B0000000002 /* AppDelegate.swift in Sources */,
+				001F1A032B5A1B0000000003 /* Constants.swift in Sources */,
+				001F1A042B5A1B0000000004 /* NotchPanel.swift in Sources */,
+				001F1A052B5A1B0000000005 /* NotchWindowController.swift in Sources */,
+				001F1A062B5A1B0000000006 /* NotchWindowManager.swift in Sources */,
+				001F1A072B5A1B0000000007 /* NotchContentView.swift in Sources */,
+				001F1A082B5A1B0000000008 /* ExpandedNotchView.swift in Sources */,
+				001F1A092B5A1B0000000009 /* BatteryWidget.swift in Sources */,
+				001F1A0A2B5A1B000000000A /* MusicPlayerWidget.swift in Sources */,
+				001F1A0B2B5A1B000000000B /* CalendarWidget.swift in Sources */,
+				001F1A0C2B5A1B000000000C /* SystemMonitorWidget.swift in Sources */,
+				001F1A0D2B5A1B000000000D /* DateTimeWidget.swift in Sources */,
+				001F1A0E2B5A1B000000000E /* NetworkWidget.swift in Sources */,
+				001F1A0F2B5A1B000000000F /* ControlsGridView.swift in Sources */,
+				001F1A102B5A1B0000000010 /* WiFiToggle.swift in Sources */,
+				001F1A112B5A1B0000000011 /* BluetoothToggle.swift in Sources */,
+				001F1A122B5A1B0000000012 /* DNDToggle.swift in Sources */,
+				001F1A132B5A1B0000000013 /* AirDropToggle.swift in Sources */,
+				001F1A142B5A1B0000000014 /* DarkModeToggle.swift in Sources */,
+				001F1A152B5A1B0000000015 /* BatteryMonitor.swift in Sources */,
+				001F1A162B5A1B0000000016 /* SystemMonitor.swift in Sources */,
+				001F1A172B5A1B0000000017 /* NetworkManager.swift in Sources */,
+				001F1A182B5A1B0000000018 /* MediaController.swift in Sources */,
+				001F1A192B5A1B0000000019 /* CalendarService.swift in Sources */,
+				001F1A252B5A1B0000000025 /* ClipboardService.swift in Sources */,
+				001F1A1A2B5A1B000000001A /* MenuBarManager.swift in Sources */,
+				001F1A1B2B5A1B000000001B /* SettingsManager.swift in Sources */,
+				001F1A1C2B5A1B000000001C /* SettingsView.swift in Sources */,
+				001F1A1D2B5A1B000000001D /* BlurView.swift in Sources */,
+				001F1A1E2B5A1B000000001E /* Extensions.swift in Sources */,
+				001F1A1F2B5A1B000000001F /* Animations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		001F1AB02B5A1B0000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8MQYF6PVL7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		001F1AB12B5A1B0000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8MQYF6PVL7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		001F1AB22B5A1B0000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = NotchDrop/Resources/NotchDrop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = YES;
+				ENABLE_RESOURCE_ACCESS_LOCATION = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotchDrop/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotchDrop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.NotchDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		001F1AB32B5A1B0000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = NotchDrop/Resources/NotchDrop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = YES;
+				ENABLE_RESOURCE_ACCESS_LOCATION = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotchDrop/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotchDrop;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.NotchDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001F1A912B5A1B0000000000 /* Build configuration list for PBXProject "NotchDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001F1AB02B5A1B0000000000 /* Debug */,
+				001F1AB12B5A1B0000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001F1AA02B5A1B0000000000 /* Build configuration list for PBXNativeTarget "NotchDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001F1AB22B5A1B0000000000 /* Debug */,
+				001F1AB32B5A1B0000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001F1A902B5A1B0000000000 /* Project object */;
+}

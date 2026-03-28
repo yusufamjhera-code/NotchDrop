@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    
+    <!-- Hide dock icon -->
+    <key>LSUIElement</key>
+    <true/>
+    
+    <!-- Minimum macOS version -->
+    <key>LSMinimumSystemVersion</key>
+    <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+    
+    <!-- Usage descriptions -->
+    <key>NSCalendarsUsageDescription</key>
+    <string>NotchDrop needs calendar access to display your upcoming events in the notch panel.</string>
+    
+    <key>NSAppleEventsUsageDescription</key>
+    <string>NotchDrop needs automation access to control Spotify and Apple Music, and system settings like Dark Mode.</string>
+    
+    <key>NSSystemAdministrationUsageDescription</key>
+    <string>NotchDrop needs access to monitor system status and control settings.</string>
+    
+    <key>NSLocationUsageDescription</key>
+    <string>NotchDrop needs location access to provide accurate Wi-Fi network information.</string>
+    
+    <!-- App supports dark mode -->
+    <key>NSAppearance</key>
+    <string>NSAppearanceNameDarkAqua</string>
+    
+    <!-- High resolution capable -->
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    
+    <!-- Principal class -->
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSCameraUsageDescription</key>
+    <string>NotchDrop needs access to the camera for the Mirror feature.</string>
+</dict>
+</plist>
