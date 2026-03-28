@@ -12,6 +12,21 @@ A personal-use macOS notch overlay app for MacBook Air M4, inspired by [NotchNoo
 
 ## Features
 
+### Widgets
+- 🔋 **Battery Status** - Percentage, charging state, time remaining
+- 🎵 **Music Player** - Now playing with controls (Apple Music/Spotify)
+- 📅 **Calendar Events** - Upcoming events from your calendars
+- 💻 **System Monitor** - CPU and RAM usage with progress bars
+- 🕐 **Date & Time** - Current time and date display
+- 📶 **Network Status** - Wi-Fi/Ethernet status and signal strength
+
+### System Controls
+- 📶 Wi-Fi Toggle
+- 📲 Bluetooth Toggle
+- 🌙 Do Not Disturb Toggle
+- 📡 AirDrop Toggle
+- 🌓 Dark Mode Toggle
+
 ### Core Capabilities
 - 🎵 **Media Player** - Now playing track information and playback controls (Apple Music/Spotify). Features stealth gesture tracking—swipe left or right beneath the notch to quickly skip tracks without expanding.
 - 📅 **Calendar Events** - Scrollable dates and today's upcoming events using EventKit
