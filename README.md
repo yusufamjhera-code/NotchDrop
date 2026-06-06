@@ -198,3 +198,8 @@ This project is for **personal use only**. Not intended for redistribution or Ap
 ## Credits
 
 Inspired by [NotchNook](https://lo.cafe/notchnook) by Lo.Cafe.
+
+---
+<div align="center">
+  <i>Built with ❤️ by Yusuf</i>
+</div>
